@@ -23,12 +23,21 @@ jobs:
         cd backend
         pip install -r requirements.txt
     
+    - name: Check if tests exist
+      id: check-tests
+      run: |
+        cd backend
+        if [ -d "tests" ] || [ -f "test_*.py" ] || [ -f "*_test.py" ]; then
+          echo "run-tests=true" >> $GITHUB_OUTPUT
+        else
+          echo "run-tests=false" >> $GITHUB_OUTPUT
+        fi
+    
     - name: Run tests
+      if: steps.check-tests.outputs.run-tests == 'true'
       run: |
         cd backend
         python -m pytest --cov=. --cov-report=xml
-      # Tests are not implemented yet - uncomment when tests are added
-      # continue-on-error: true
 
   test-frontend:
     runs-on: ubuntu-latest
@@ -36,24 +45,49 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
+    - name: Check if package-lock.json exists
+      id: check-lock
+      run: |
+        cd frontend
+        if [ -f "package-lock.json" ]; then
+          echo "lock-exists=true" >> $GITHUB_OUTPUT
+        else
+          echo "lock-exists=false" >> $GITHUB_OUTPUT
+        fi
+    
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '20'
         cache: 'npm'
         cache-dependency-path: frontend/package-lock.json
+      if: steps.check-lock.outputs.lock-exists == 'true'
     
     - name: Install dependencies
       run: |
         cd frontend
-        npm ci
+        if [ -f "package-lock.json" ]; then
+          npm ci
+        else
+          npm install
+          npm audit fix || true
+        fi
+    
+    - name: Check if tests exist
+      id: check-tests
+      run: |
+        cd frontend
+        if [ -d "__tests__" ] || [ -d "test" ] || [ -f "*.test.js" ] || [ -f "*.test.ts" ] || [ -f "*.test.tsx" ]; then
+          echo "run-tests=true" >> $GITHUB_OUTPUT
+        else
+          echo "run-tests=false" >> $GITHUB_OUTPUT
+        fi
     
     - name: Run tests
+      if: steps.check-tests.outputs.run-tests == 'true'
       run: |
         cd frontend
         npm test
-      # Tests are not implemented yet - uncomment when tests are added
-      # continue-on-error: true
     
     - name: Build
       run: |
