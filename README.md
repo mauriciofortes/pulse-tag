@@ -214,6 +214,7 @@ If you encounter any issues or have questions:
 - Check the troubleshooting section above
 - Review the API documentation at http://localhost:8000/docs
 
+**⭐ If this project helps you, please give it a star!**
 ---
 
 Built with ❤️ by [Brad McA](https://github.com/bradmca)
